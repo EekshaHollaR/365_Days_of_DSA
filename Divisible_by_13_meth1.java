@@ -21,6 +21,10 @@ public class Divisible_by_13_meth1 {
     // This method is best for numbers within standard integer datatypes.
     // For larger nums it might lead to overflow
 
+
+
+    // A number is divisible by 13 if and only if 
+    // the alternating sum of its 3-digit blocks, taken from right to left, is divisible by 13.
     static boolean divBy13(String s){
         int len=s.length();
         if (len==1 && s.charAt(0)=='0'){
