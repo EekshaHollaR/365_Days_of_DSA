@@ -18,7 +18,7 @@ Let Two Numbers be X and Y
  * Find the Value of 10
  */
 
-public class karatsuba{
+public class Day03_karatsuba{
     public static long solve(long x, long y){
         if (x<=10 || y<=10){
             return x*y;
